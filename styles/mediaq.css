@@ -1,0 +1,13 @@
+@media only screen and (max-width: 414px) {
+    .info-text {
+        font-size: 0.85rem;
+        margin: 15px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .description {
+        font-size: 18px;
+        margin-right: 20px;
+    }
+}
