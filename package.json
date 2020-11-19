@@ -1,0 +1,26 @@
+{
+  "name": "babel-project",
+  "version": "1.0.0",
+  "description": "Transpile code in a Babel Project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./scripts/script.js -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JJooaa/valorante.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JJooaa/valorante/issues"
+  },
+  "homepage": "https://github.com/JJooaa/valorante#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.7.0"
+  }
+}
